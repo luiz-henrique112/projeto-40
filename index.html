@@ -1,0 +1,37 @@
+<!DOCTYPE html><html lang="en"><head>
+  <script src="libraries/p5.js"></script>
+  <script src="libraries/p5.dom.min.js"></script>
+  <script src="libraries/matter.js"></script>
+  <script src="libraries/p5.play.js"></script>
+
+  <script src="js/form.js"></script>
+  <script src = js/game.js></script>
+  <script src = js/player.js></script>
+<!--Link game.js e player.js-->
+   
+<script src="https://www.gstatic.com/firebasejs/8.4.2/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.4.2/firebase-database.js"></script>
+<!--Adicione configuração do banco de dados abaixo-->
+<script>
+const firebaseConfig = {
+  apiKey: "AIzaSyDJxo3c4BxefYSgqWYTOqWRrP5auM_Y_cY",
+  authDomain: "canguru-473b7.firebaseapp.com",
+  databaseURL: "https://canguru-473b7-default-rtdb.firebaseio.com",
+  projectId: "canguru-473b7",
+  storageBucket: "canguru-473b7.appspot.com",
+  messagingSenderId: "177764289017",
+  appId: "1:177764289017:web:5169a68884b87d66f71528"
+};
+firebase.initializeApp(firebaseConfig)
+</script>
+
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <meta charset="utf-8">
+
+</head>
+<body>
+  <script src="sketch.js"></script>
+
+
+
+</body></html>
